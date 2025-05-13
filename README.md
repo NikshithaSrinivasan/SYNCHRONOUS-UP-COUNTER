@@ -58,7 +58,7 @@ endmodule
 
 **RTL LOGIC UP COUNTER**
 
-![upcounter 11](https://github.com/user-attachments/assets/a4cff80c-3c93-4eb9-b47c-4102f6689bcd)
+![image](https://github.com/user-attachments/assets/10cc4b26-b389-4a1c-ae1b-ce34a190ea20)
 
 
 **TIMING DIAGRAM FOR IP COUNTER**
