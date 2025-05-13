@@ -63,7 +63,7 @@ endmodule
 
 **TIMING DIAGRAM FOR IP COUNTER**
 
-![waveform upcounter](https://github.com/user-attachments/assets/176e1310-9f76-4f3d-aeff-bf43b3f67225)
+![image](https://github.com/user-attachments/assets/b8c7f3db-21ef-4c22-885c-48de94e1274f)
 
 
 **TRUTH TABLE**
