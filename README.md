@@ -31,7 +31,8 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 /* write all the steps invloved */
 
 **PROGRAM**
-```Developed by:NIKSHITHA.S
+```
+Developed by:NIKSHITHA.S
 
 RegisterNumber:212224040220
 ```
@@ -51,7 +52,7 @@ endmodule
 ```
 
 
-*/
+
 
 **RTL LOGIC UP COUNTER**
 
