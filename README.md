@@ -26,51 +26,37 @@ Since the first (LSB) flip-flop needs to toggle at every clock pulse, its J and 
 The next flip-flop need only “recognize” that the first flip-flop’s Q output is high to be made ready to toggle, so no AND gate is needed.
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
-**PROCEDURE**
-
-```
-1. Type the program in Quartus software.
-2. Compile and run the program.
-3. Generate the RTL schematic and save the logic diagram.
-4. Create nodes for inputs and outputs to generate the timing diagram.
-5. For different input combinations generate the timing diagram. 
-```
-
 **PROGRAM**
+```
+Developed by:NIKSHITHA.S
+Register no:212224040220
+```
+```
 
-```
-Developed by: NIKSHITHA S
-RegisterNumber: 24900161
-```
-```
-module upcounter(out,clk,rst);
-input clk,rst;
-output reg [3:0]out;
+module exp11(out,clk,rstn);
+input clk,rstn;
+output reg [3:0] out;
 always @ (posedge clk)
 begin
-   if(rst)
-     out<=0;
-   else 
-     out <= out+1;
+   if(!rstn)
+	  out<=0;
+	else
+	  out<=out+1;
 end
 endmodule
+
 ```
+
+
 
 **RTL LOGIC UP COUNTER**
 
-![image](https://github.com/user-attachments/assets/10cc4b26-b389-4a1c-ae1b-ce34a190ea20)
-
+![de exp11 rtl](https://github.com/user-attachments/assets/b917fd9c-d2f3-4525-854a-c3c88da9d887)
 
 **TIMING DIAGRAM FOR IP COUNTER**
 
-![image](https://github.com/user-attachments/assets/b8c7f3db-21ef-4c22-885c-48de94e1274f)
-
-
-**TRUTH TABLE**
-
-![tt up counter](https://github.com/user-attachments/assets/d82a8375-3fc9-47ed-9770-fe1eb196ac4a)
-
+![de exp11 simuation](https://github.com/user-attachments/assets/3aa0af68-9f8e-4d8b-9639-150f0a3dee0d)
 
 **RESULTS**
 
-Thus, the Synchronous up counter is designed and its functionality is validated using the truth table and timing diagrams.
+To implement 4 bit synchronous up counter and validate functionality was successful.
